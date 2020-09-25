@@ -35,6 +35,16 @@ We can also a use split method and traverse each charcater to check if first str
 3) Find .jar file on the target folder created after building the project in FetchRewards_Backend_SWE\target
 4) Execute ```java -jar FetchRewards_Backend_SWE-0.0.1-SNAPSHOT.jar```
 
+#### To test the api service locally use any API testing tool (Example: Postman) or hit url http://localhost:8081/cmpVersion (since port mentioned on application properties is 8081)
+``` bash
+curl --location --request POST 'http://localhost:8081/cmpVersion' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "s1":"2.12",
+    "s2":"2.0"
+}'
+```
+
 #### Steps to run unit test cases
 1) Run the project as JUnit test cases by right click and run as "JUnit test cases"
 2) By command line use  ```mvn test```
