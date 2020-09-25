@@ -10,6 +10,7 @@ Examples
 ### Assumptions
 1) The input parameter "1.0" and "1.0.0" is considerd to be equal
 2) The input parameter ".01" is considered to be invalid
+3) Leading 0's in version number is ignore. For instance '1' and '001' is considered to be equal
 
 ### Approach
 1) Created a Spring Boot MVC arhcitecture using Java as my technology language
