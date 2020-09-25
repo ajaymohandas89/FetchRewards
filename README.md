@@ -15,7 +15,7 @@ Examples
 1) Created a Spring Boot MVC arhcitecture using Java as my technology language
 2) Validation of input parameter is writter in a separate class
 3) Comparing of two strings are handled in a separate file
-4) In this appraoch I am using a pointer method to traverse input parameter till we get a dot(.) and calculate the value integer. If the received integer value is less than second string parameter then we return result
+4) In this appraoch I am using a pointer method to traverse input parameter till we get a dot(.) and calculate the value integer. If the received integer value is less than second string parameter then we return before else if value of first parameter is more then second value then return after else return equal
 
 #### Time complexity and Space complexity
 The time complexity of the code on a avergae case runs till maximum length between 2 inputs and Memory Usage is 39 MB
